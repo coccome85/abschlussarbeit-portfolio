@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62, 5%;
+  font-family: "Alegreya", serif;
+}
+body {
+  background-color: rgb(219, 219, 218);
+}
+/* Style Header and Navbar */
+
+.header {
+  background-color: rgb(209, 206, 206);
+  background: linear-gradient(to right, #e75151, #4343ec);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+h1,
+h2,
+h3 {
+  color: white;
+  font-weight: normal;
+}
+.navbar {
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5px 0 5px;
+  transition: 0.5s;
+}
+.header .navbar a:hover {
+  border-bottom: 1px dotted white;
+  color: lightgreen;
+  font-size: 20px;
+}
+
+/* Style Main Container und Area */
+
+.main-container {
+  margin-top: 100px;
+}
+.main-area {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(34, 33, 33, 0.438);
+  margin: 10px;
+  padding: 10px;
+}
+
+.main-area p,
+h3 {
+  padding: 5px;
+}
+
+
+/* Footer Style */
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  gap: 2rem;
+}
+.footer-link a{
+  text-decoration: none;
+}
+.icon {
+  font-size: 35px;
+  color: rgb(148, 74, 185);
+  transition: 0.5s;
+}
+.icon:hover {
+  color: blueviolet;
+  font-size: 45px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

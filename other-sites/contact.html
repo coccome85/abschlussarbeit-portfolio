@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/other-sites/contact.css" />
+    <script
+      src="https://kit.fontawesome.com/66bcfb1f06.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="container-form">
+      <form action="mailto:coccojasmin@googlemail.com" method="post" enctype="application/x-www-form-urlencoded">
+        <div class="row">
+          <div class="input-group">
+            <input type="text" id="name" required />
+            <label for="name"><i class="fa-solid fa-user"></i>Your Name</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="number" required />
+            <label for="number"
+              ><i class="fa-solid fa-phone"></i>Your Phone Number</label
+            >
+          </div>
+        </div>
+
+        <div class="input-group">
+          <input type="email" id="email" required />
+          <label for="email"
+            ><i class="fa-solid fa-envelope"></i>Your E-mail</label
+          >
+        </div>
+        <div class="input-group">
+          <textarea id="message" rows="8" required></textarea>
+          <label for="message"
+            ><i class="fa-solid fa-comment"></i>Your Message</label
+          >
+        </div>
+        <button type="submit">
+          Submit<i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
